@@ -24,7 +24,7 @@ LABEL name="Memcached Operator" \
       summary="This is an example of a Memcached operator." \
       description="This operator will deploy memcached to the cluster."
 # Required Licenses
-COPY LICENSE /licenses
+COPY license /licenses
 # Set arbitrary User ID
 USER 1001
 WORKDIR /

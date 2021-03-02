@@ -30,9 +30,6 @@ type MemcachedSpec struct {
 
 	// Size defines the number of Memcached instances
 	Size int32 `json:"size,omitempty"`
-
-	// Foo is an example field of Memcached. Edit memcached_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
 }
 
 // MemcachedStatus defines the observed state of Memcached
